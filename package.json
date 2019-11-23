@@ -1,0 +1,47 @@
+{
+  "name": "graphql-typescript-server",
+  "version": "0.0.1",
+  "description": "Custom boilerplate to setup GraphQL, Node, Express, Postgres, Typescript and Docker.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node build/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardKetuma/graphql-typescript-server-boilerplate.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "NodeJS",
+    "Express",
+    "Typescript",
+    "Docker",
+    "Postgres"
+  ],
+  "author": "Gerard Ketuma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GerardKetuma/graphql-typescript-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/GerardKetuma/graphql-typescript-server-boilerplate#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.9.12",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "pg": "^7.14.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.1.0",
+    "type-graphql": "^0.17.5",
+    "typeorm": "^0.2.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.11",
+    "@types/node-fetch": "^2.5.4",
+    "nodemon": "^2.0.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
